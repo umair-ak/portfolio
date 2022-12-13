@@ -22,6 +22,9 @@ a{
 a:hover{
     color: #040000;
 }
+section{
+    margin: 30px;
+}
 .profile{
     padding : 50px;
     margin-top: 70px;
@@ -51,7 +54,7 @@ a:hover{
 
 .bottom-container{
     padding: 50px 0px 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(197, 197, 197);
     height: 100px;
     color: black;
 }
@@ -68,7 +71,7 @@ a:hover{
 .skill-row{
     height: 250px;
     width: 50%;
-    margin: 50px auto;
+    margin: 100px auto;
     text-align: left;
 }
 .cpp{
@@ -89,7 +92,7 @@ a:hover{
     font-size: 2rem;
 }
 .contact-me{
-    margin: 50px;
+    margin: 100px;
 }
 
 .getintouch{
@@ -134,4 +137,29 @@ a:hover{
     background-image: -o-linear-gradient(top,  #868585, #868585);
     background-image: linear-gradient(to bottom,  #868585, #868585);
     text-decoration: none;
+  }
+
+  .shuttle{
+    width: 150px;
+    position:absolute;
+}
+.firstshut{
+    right:200px;
+    top : 50px;
+  }
+  .secondshut{
+    left: 200px;
+  }
+
+  .saturn{
+    width: 150px;
+    position : relative;
+    left: 600px;
+    bottom: 800px;
+  }
+  .telescope{
+    position : absolute;
+    width: 150px;
+    left : 500px;
+    /* bottom: 50px; */
   }
